@@ -1,0 +1,32 @@
+.left-program{
+    margin-top: 44px;
+    margin-right: 80px;
+    width: 522px;
+height: 697px;
+background: #FFFFFF;
+box-shadow: -2.92381px 0px 36.5476px rgba(39, 122, 247, 0.1);
+border-radius: 2px;
+}
+
+.left-program .progs{
+    margin: 60px 50px;
+    font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #121212;
+}
+
+.program-details{
+display: flex;
+    flex-direction: row;
+}
+
+.prog-icons{
+    width: 25%;
+}
+
+.prog-card{
+    display: flex;
+    flex-direction: row;
+}

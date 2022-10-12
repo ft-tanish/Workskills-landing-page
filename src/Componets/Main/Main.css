@@ -20,7 +20,7 @@ line-height: 75px;
 letter-spacing: 0.03em;
 
 color: #121212;
-margin-top: 65px;
+margin-top: 35px;
 }
 
 @media (max-width: 960px) {
@@ -81,8 +81,8 @@ color: #FAC711;
      padding-bottom: 0;
  }
  .section .right {
-   
     width: 100%;
+    margin-left: 81px;
  }
 
  .section .left {

@@ -1,0 +1,42 @@
+.second{
+    background: #E5E5E5;
+}
+
+.card-head{
+    margin: 71px 0px 55px;
+    font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+letter-spacing: 0.03em;
+color: #121212;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+    width: 695px;
+height: 148px;
+background: #FFFFFF;
+box-shadow: -2.92381px 0px 36.5476px rgba(39, 122, 247, 0.1);
+border-radius: 2px;
+}
+
+.tools img{
+    width: 45px;
+height: 45px;
+}
+
+.tools p{
+    margin-top: 20px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.03em;
+color: rgba(18, 18, 18, 0.8);
+}
+
+.tools .icon{
+    margin: 27px 47px 29px;
+}
+
