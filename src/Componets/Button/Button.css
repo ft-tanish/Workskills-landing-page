@@ -1,0 +1,24 @@
+.ws-button{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+padding: 17px 34px;
+background: #3C68FF;
+border: none;
+outline: none;
+margin-bottom: 24px;
+}
+
+.ws-button.small{
+    padding: 10px 34px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 140.5%;
+}

@@ -1,0 +1,62 @@
+.instructor{
+    text-align: center;
+}
+
+.pre{
+    max-width: 100%;
+
+filter: drop-shadow(-4.05141px 0px 71.9126px rgba(60, 104, 255, 0.19));
+}
+
+.mentorcompany{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mentor{
+    width: 40%;
+    flex-basis: 40%;
+    
+}
+
+.mentor p{
+ 
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140.5%;
+/* or 25px */
+
+letter-spacing: 0.01em;
+
+color: #121212;
+}
+
+.designation{
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-basis: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.company{
+    width: 60%;
+    flex-basis: 60%;
+}
+
+.company img:first-of-type{
+    margin-right: 15px;
+}
+
+.company img{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+    .mentorcompany, .designation{
+        display: none;
+    }
+}
