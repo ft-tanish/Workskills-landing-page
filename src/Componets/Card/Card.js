@@ -2,20 +2,22 @@ import React from 'react'
 import Button from '../Button/Button'
 import './Card.css'
 
-const Card = () => {
+
+const Card = ({ card, changeFunction }) => {
+
     return (
-        <div className='card'>
+        <div className='card' onClick={() => changeFunction()}>
             <div className='card-left'>
                 <div className='counting'>
-                    1
+                    {card.no}
                 </div>
             </div>
             <div className='card-right'>
                 <p className='card-heading'>
-                    Foundation of data Management
+                    {card.title}
                 </p>
                 <p className='card-sub-heading'>
-                    Use design-thinking methodologies to explore various ideas, and then converge on a single idea.
+                    {card.description}
                 </p>
                 <div className='card-buttons'>
                     <div className='first-btn'>

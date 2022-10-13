@@ -9,9 +9,9 @@ import fee from '../../assets/fee.png'
 const Program = () => {
     return (
         <div className='left-program'>
-            <p className='progs'>
+            <div className='progs'>
                 Who is this program for?
-            </p>
+            </div>
             <div className='program-details'>
                 <div className='prog-icons'>
                     <div className='prog-card'>
