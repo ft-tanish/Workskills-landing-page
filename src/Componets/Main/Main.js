@@ -10,9 +10,9 @@ const Main = () => {
     return (
         <div className='container' >
             <Navbar />
-            <div class="section">
+            <div className="section pt-0">
 
-                <div class="right">
+                <div className="right">
                     <h1 className='heading'>
                         Copywriting 101
                     </h1>

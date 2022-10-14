@@ -71,15 +71,10 @@ body {
     color: #FAC711;
 }
 
-
 .section {
     display: flex;
     flex-direction: column;
     padding: 20px;
-}
-
-.pt-0 {
-    padding-top: 0;
 }
 
 .section.nav {
@@ -89,6 +84,7 @@ body {
 
 .section .right {
     width: 100%;
+    margin-left: 81px;
 }
 
 .section .left {
@@ -97,16 +93,13 @@ body {
 }
 
 @media (min-width: 960px) {
+    .container {}
 
     .section {
-        padding: 40px 60px;
+        padding: 40px;
         flex-direction: row;
-        gap: 60px;
+        gap: 40px;
 
-    }
-
-    .pt-0 {
-        padding-top: 0;
     }
 
     .section .right {

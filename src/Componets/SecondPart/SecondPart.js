@@ -21,9 +21,9 @@ const SecondPart = () => {
     }
     return (
         <div className='secnod'>
-            <div class="section">
+            <div className="section section-padding">
 
-                <div class="right" >
+                <div className="right" >
                     <p className='card-head'>
                         Frameworks & tools you will learn
                     </p>
